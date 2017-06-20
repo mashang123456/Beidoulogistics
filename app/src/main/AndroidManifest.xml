@@ -25,13 +25,19 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="0Oa5Bi9pxUIfw2HXvwFsOmGFR8EL1Ocv" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".DemoListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MapLayerActivity"/>
+        <activity android:name=".CircelOverlayActivity"/>
+        <activity android:name=".TextOverlayActivity"/>
+        <activity android:name=".MarkerOverlayActivity"/>
+        <activity android:name=".SearchInBoundActivity"/>
     </application>
 
 </manifest>
